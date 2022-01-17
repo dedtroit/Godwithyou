@@ -8,6 +8,7 @@
 	import Videos from "../components/pages/Videos.svelte";
 	import About from "../components/pages/About.svelte";
 	import Contact from "../components/pages/Contact.svelte";
+	import Home from "../components/pages/Home.svelte";
   
 	// Import Swiper styles
 	import "swiper/css";
@@ -65,9 +66,11 @@
 	  speed={750}
 	>
 	  <SwiperSlide>
-		  <div class="page">
-			  Home page!
-		  </div>
+			<div class="page">
+				<div class="padding">
+					<Home goTo={goTo} />
+				</div>
+			</div>
 	  </SwiperSlide>
 	  <SwiperSlide>
 		  <div class="page">

@@ -28,7 +28,7 @@
   }
 
   .contact {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     display: flex; 
     flex-direction: row;
     justify-content: space-between;

@@ -4,13 +4,12 @@
 
 <div class="content">
   <div>
-    <img class="logo" src="http://placehold.jp/ffffff/621d1d/300x150.png" alt="Logo" />
   </div>
   <div class="center-content">
     <div class="about">
       Danny Matthews Creative specializes in <span class="highlight-white"
         >music and brand videos,</span
-      > but we understand that you may be looking for more than that. We have listed
+      ><br> but we understand that you may be looking for more than that.<br>We have listed
       other company's that can help with those needs.
     </div>
     <div class="links">
@@ -25,15 +24,11 @@
     
   </div>
     <div class="contact">
-        <div class="info">A digital Production studio creating for your branding needs</div>
         <div on:click={()=> {goTo('contact')}}>CONTACT US</div>
     </div>
 </div>
 
 <style>
-  .about {
-    width: 38%;
-  }
 
   .highlight-white {
     color: white;
@@ -55,11 +50,6 @@
 
   }
 
-  .info {
-      padding-bottom: 20px;
-      width: 27%
-  }
-
   .content {
     display: flex;
     flex-direction: column;
@@ -78,6 +68,7 @@
   @media only screen and (max-width: 1000px) {
     .about {
         width: 60%;
+        font-size: 13px;
     }
     .links {
         font-size: 35px;
@@ -90,9 +81,6 @@
         
     }
     
-    .info {
-        width: 70%;
-    }
     .links {
         font-size: 30px;
         width: 100%;
@@ -105,16 +93,20 @@
         font-size: 12px;
     }
 
-    .info {
-        width: 90%;
-    }
-
     .contact {
         font-size: 13px;
     }
 
-    .logo  {
-        width: 180px;
+    .links {
+      display: flex;
+      flex-direction: column;
     }
   }
+
+  @media only screen and (max-width: 400px) {
+    .about br {
+        display: none;
+    }
+  }
+  
 </style>
