@@ -1,10 +1,14 @@
 <div class="content">
+  <div class="cre">CRE</div>
+  <div class="ate">ATE</div>
   <div class="header">
-    <div class="local">
-      <img src="/images/logo-small.png" alt="Logo" class="logo">
-      <div>BASED IN SACRAMENTO, CALIFORNIA</div>
-    </div>
-    <div class="contact">CONTACT TODAY</div>
+    <div class="topbar">
+      <div class="local">
+        <img src="/images/logo-small.png" alt="Logo" class="logo">
+      </div>
+      <div class="contact">CONTACT TODAY</div>
+    </div>    
+    <div class="based">BASED IN SACRAMENTO, CALIFORNIA</div>
   </div>
   <div class="hero">
     <h1>Custom content for your brand</h1>
@@ -12,13 +16,56 @@
     <div class="contact">CONTACT TODAY</div>
   </div>
   <div class="spacer"></div>
+  <div class="thatway">
+    <img src="/images/scroll2.png" alt="graffiti that way">
+  </div>
 </div>
- 
 <style>
 
-  .local div {
-    color: #00000066
+  .cre, .ate {
+    font-size: 600px;
+    opacity: .08;
+    z-index:0;
+    line-height: 450px;
+
   }
+
+  .cre {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .ate {
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+  }
+
+  .topbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .thatway {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .thatway img {
+    width: 1500px;
+    opacity: .5;
+  }
+
+  .based {
+    color: #00000066;
+    font-size: 15px;
+  }
+
   .logo {
     width: 175px;
     padding-top: 20px;
@@ -27,7 +74,8 @@
   .header { 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .contact {
@@ -36,6 +84,7 @@
     background-color: #716c5e; 
     text-align: center;
     max-width: 300px;
+    z-index: 2
   }
 
   .header .contact {
@@ -75,7 +124,41 @@
     height: 100px;
   }
 
+  @media only screen and (max-width: 1700px) {
+
+    .cre, .ate {
+      font-size: 500px;
+      line-height: 380px;
+
+    }
+
+    .thatway img {
+      width: 1000px;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+
+    .cre, .ate {
+      font-size: 400px;
+      line-height: 300px;
+    }
+
+  }
+
+
   @media only screen and (max-width: 1000px) {
+
+    .cre, .ate {
+      font-size: 300px;
+      line-height: 230px;
+
+    }
+
+    .thatway img {
+      width: 750px;
+    }
+
     .hero h1 {
       font-size: 40px;
     }
@@ -87,6 +170,10 @@
   }
 
   @media only screen and (max-width: 850px) {
+    .thatway img {
+      width: 500px;
+    }
+
     .hero h1 {
       font-size: 35px;
     }
@@ -109,16 +196,45 @@
   }
 
   @media only screen and (max-width: 600px) {
+
+    .cre, .ate {
+      font-size: 200px;
+      line-height: 230px;
+    }
+
+    .cre {
+      top: 70px;
+      right: 0px;
+    }
+
+    .ate {
+      bottom: -20px;
+      left: 0px;
+    }
+
+
+    .thatway {
+      bottom: 100px;
+    }
+
+    .thatway img {
+      width: 350px;
+    }
+
     .logo {
-      width: 120px;
+      width: 100px;
     } 
 
-    .local div {
-      font-size: 11px;
-    }
+  .based {
+    font-size: 10px;
+  }
 
     .contact {
       font-size: 20px;
+    }
+
+    .header .contact {
+      font-size: 10px;
     }
 
     .content {
@@ -137,28 +253,37 @@
   }
 
   @media only screen and (max-width: 450px) {
+    .thatway img {
+      width: 300px;
+    }
     .header .contact {
       padding: 10px 30px;
     }
     .hero h1 {
       font-size: 18px;
     }
-
   }
 
   @media only screen and (max-width: 400px) {
-    .header .contact {
-      padding: 10px 10px;
+
+    .cre, .ate {
+      font-size: 150px;
     }
-    .local div {
-      font-size: 10px;
+
+    .thatway img {
+      width: 230px;
+    }
+
+    .header .contact {
+      padding: 10px 20px;
     }
 
     .logo {
-      width: 105px;
+      width: 80px;
     }
 
     .contact {
+      margin-top: 20px;
       font-size: 15px;
     }
 
@@ -171,5 +296,9 @@
     }
 
    
+  }
+
+  @media only screen and (max-width: 300px) {
+
   }
 </style>

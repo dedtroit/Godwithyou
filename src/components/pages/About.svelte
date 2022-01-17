@@ -3,12 +3,22 @@
 </script>
 
 <div class="content">
+  <img
+    class="about"
+    src="/images/about.png"
+    alt="About"
+  />
   <div class="timeline">
     <div class="profile">
       <img
-        class="video"
-        src="http://placehold.jp/ffffff/621d1d/120x120.png"
-        alt="video"
+        class="image"
+        src="/images/danny-overlay.jpg"
+        alt="Danny Matthews"
+      />
+      <img
+        class="about-logo"
+        src="/images/about.png"
+        alt="About"
       />
     </div>
     <div class="desktop">
@@ -124,17 +134,37 @@
         goTo('contact');
       }}
     >
-      CONTACT US
+      CONTACT TODAY
     </div>
   </div>
 </div>
 
 <style>
+
+  .about {
+    width: 300px;
+    margin-top: 60px;
+    position: absolute;
+  }
+
+  .about-logo {
+    width: 120px;
+    position: absolute;
+    margin-top: -70px;
+    display: none;
+  }
+
+  .image {
+    padding-bottom: 10px;
+    width: 120px;
+  }
+
   .timeline {
     display: flex;
     flex-direction: row;
     margin: auto;
     align-items: center;
+    padding-top: 150px;
   }
 
   .mobile {
@@ -222,6 +252,14 @@
 
   @media only screen and (max-width: 1750px) {
 
+    .about {
+      display: none;
+    }
+
+    .about-logo {
+      display: block;
+    }
+
     .line {
       position: absolute;
       left: 50%;
@@ -232,6 +270,7 @@
     .timeline {
       margin: unset;
       width: 100%;
+      padding-top: 0px;
     }
 
     .desktop {
@@ -281,6 +320,7 @@
     .right {
       text-align: right;
     }
+
 
 
 

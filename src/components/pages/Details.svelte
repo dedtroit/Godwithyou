@@ -3,7 +3,9 @@
 </script>
 
 <div class="content">
+  <div></div>
   <div>
+    <img class="washere" src="/images/washere.png" alt="Danny was here graffiti">
   </div>
   <div class="center-content">
     <div class="about">
@@ -17,18 +19,25 @@
       <span class="highlight-white">Brand video</span>
       <span>Wedding Films</span>
       <span>Lyric videos</span>
-      <span>Real Estate videos</span>
+      <span>Post Production</span>
       <span>Web design</span>
       <span>Graphic design</span>
     </div>
     
   </div>
-    <div class="contact">
-        <div on:click={()=> {goTo('contact')}}>CONTACT US</div>
-    </div>
+  <div></div>
+  <div class="contact">
+      <div on:click={()=> {goTo('contact')}}>CONTACT TODAY</div>
+  </div>
 </div>
 
 <style>
+
+  .washere {
+    margin-left: 130px;
+    width: 250px;
+    opacity: .5;
+  }
 
   .highlight-white {
     color: white;
@@ -47,9 +56,16 @@
   }
 
   .contact {
-      color: white;
-      font-size: 20px;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
 
+  .contact div {
+    width: 150px;
+    text-align: center;
+    padding: 10px 30px !important;
+    background-color: #716c5e;
   }
 
   .content {
@@ -68,6 +84,12 @@
   }
 
   @media only screen and (max-width: 1000px) {
+
+    .washere {
+      width: 200px;
+      margin-left: 0px;
+    }
+
     .about {
         
         font-size: 13px;
@@ -91,7 +113,7 @@
     }
 
     .contact {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .links {
@@ -103,6 +125,10 @@
   @media only screen and (max-width: 550px) {
     .about br {
         display: none;
+    }
+
+    .links {
+      font-size: 25px;
     }
   }
 
