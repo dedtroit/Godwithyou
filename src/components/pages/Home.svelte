@@ -4,17 +4,21 @@
       <img src="/images/logo-small.png" alt="Logo" class="logo">
       <div>BASED IN SACRAMENTO, CALIFORNIA</div>
     </div>
-    <div class="contact">CONTACT NOW</div>
+    <div class="contact">CONTACT TODAY</div>
   </div>
   <div class="hero">
     <h1>Custom content for your brand</h1>
     <h3>A digital production studio creating <br>for your branding needs</h3>
-    <div class="contact">CONTACT NOW</div>
+    <div class="contact">CONTACT TODAY</div>
   </div>
   <div class="spacer"></div>
 </div>
  
 <style>
+
+  .local div {
+    color: #00000066
+  }
   .logo {
     width: 175px;
     padding-top: 20px;
@@ -22,13 +26,21 @@
 
   .header { 
     display: flex;
-    padding-right: 50px;
     justify-content: space-between;
     align-items: center;
   }
 
   .contact {
-    font-size: 27px;
+    font-size: 20px;
+    padding: 7px 50px;
+    background-color: #716c5e; 
+    text-align: center;
+    max-width: 300px;
+  }
+
+  .header .contact {
+    font-size: 12px;
+    padding: 10px 50px;
   }
  
   .content {
@@ -36,17 +48,20 @@
     flex-direction: column;
     color: white;
     height: 100vh;
+    padding-right: 50px;
     justify-content: space-between;
   }
 
   .hero {
     text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero h1 {
     font-weight: 400 !important;
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: 0px;
   }
 
@@ -58,5 +73,103 @@
 
   .spacer {
     height: 100px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .hero h1 {
+      font-size: 40px;
+    }
+
+    .hero h3 {
+      font-size: 25px;
+    }
+
+  }
+
+  @media only screen and (max-width: 850px) {
+    .hero h1 {
+      font-size: 35px;
+    }
+
+    .hero h3 {
+      font-size: 25px;
+    }
+
+  }
+
+  @media only screen and (max-width: 750px) {
+    .hero h1 {
+      font-size: 28px;
+    }
+
+    .hero h3 {
+      font-size: 20px;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+      width: 120px;
+    } 
+
+    .local div {
+      font-size: 11px;
+    }
+
+    .contact {
+      font-size: 20px;
+    }
+
+    .content {
+      padding-right: 30px;
+    }
+
+    .hero h1 {
+      font-size: 20px;
+      margin-bottom: 7px;
+    }
+
+    .hero h3 {
+      font-size: 15px;
+      margin-bottom: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .header .contact {
+      padding: 10px 30px;
+    }
+    .hero h1 {
+      font-size: 18px;
+    }
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .header .contact {
+      padding: 10px 10px;
+    }
+    .local div {
+      font-size: 10px;
+    }
+
+    .logo {
+      width: 105px;
+    }
+
+    .contact {
+      font-size: 15px;
+    }
+
+    .hero h1 {
+      font-size: 14px;
+    }
+
+    .hero h3 {
+      font-size: 11px;
+    }
+
+   
   }
 </style>

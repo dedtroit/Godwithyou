@@ -13,8 +13,8 @@
       other company's that can help with those needs.
     </div>
     <div class="links">
-      <span class="highlight-white">Music videos</span>
-      <span class="highlight-white">Brand videos</span>
+      <span class="highlight-white">Music video</span>
+      <span class="highlight-white">Brand video</span>
       <span>Wedding Films</span>
       <span>Lyric videos</span>
       <span>Real Estate videos</span>
@@ -38,6 +38,8 @@
     padding-top: 30px;
     font-size: 40px;
     width: 90%;
+    text-transform: uppercase;
+    font-weight: 300;
   }
   .links span {
     padding-right: 15px;
@@ -67,7 +69,7 @@
 
   @media only screen and (max-width: 1000px) {
     .about {
-        width: 60%;
+        
         font-size: 13px;
     }
     .links {
@@ -76,11 +78,6 @@
   }
 
   @media only screen and (max-width: 700px) {
-    .about {
-        width: 70%;
-        
-    }
-    
     .links {
         font-size: 30px;
         width: 100%;
@@ -103,10 +100,10 @@
     }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 550px) {
     .about br {
         display: none;
     }
   }
-  
+
 </style>

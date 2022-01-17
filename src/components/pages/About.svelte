@@ -267,7 +267,7 @@
     }
 
     .center div {
-      background-color: burlywood;
+      background-color: #aaa493;
       width: fit-content;
       z-index: 2;
     }

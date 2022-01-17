@@ -1,5 +1,5 @@
 <div class="content">
-  <div class="attention">Don't be a stranger</div>
+  <div class="attention">Don't<br> be a stranger</div>
   <div class="contact">
     <div class="personal">
       <div class="cta">REACH OUT TO</div>
@@ -23,8 +23,10 @@
     padding: 0px 20px 0px 0px;
   }
   .attention {
-    font-size: 14rem;
-    line-height: 11rem;
+    font-family: Geomanist Book;
+    padding-top: 50px;
+    font-size: 13rem;
+    line-height: 10.5rem;
   }
 
   .contact {
@@ -50,5 +52,59 @@
 
   .phone {
     color: #ffffffbb !important
+  }
+
+  @media only screen and (max-width: 860px) {
+    .attention {
+      font-size: 10rem;
+      line-height: 8rem;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .attention {
+      font-size: 8rem;
+      line-height: 6rem;
+    }
+  }
+
+  @media only screen and (max-width: 510px) {
+    .attention {
+      padding-top: 150px;
+      font-size: 6rem;
+      line-height: 5rem;
+    }
+
+    .contact {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .social a {
+      padding: 0px;;
+    }
+
+    .social {
+      padding-top: 100px;
+    }
+
+    .social .instagram {
+      padding-right: 20px;
+    }
+
+
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+    .attention {
+      padding-top: 150px;
+    }
+
+    .attention {
+      font-size: 4.5rem;
+      line-height: 4rem;
+    }
+    
   }
 </style>
