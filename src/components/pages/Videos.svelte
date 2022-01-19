@@ -142,7 +142,7 @@
     <div class="title">TESTIMONIALS</div>
     <div class="videos">
       <div
-        class={active === 9 ? "vid hideVideo active" : "vid hideVideo"}
+        class={active === 9 ? "vid  active" : "vid"}
         on:mouseenter={() => {
           active = 9;
         }}
@@ -154,7 +154,7 @@
         <img class="video" src="/images/thumbs/wogo.jpg" alt="video" />
       </div>
       <div
-        class={active === 10 ? "vid hideVideo active" : "vid hideVideo"}
+        class={active === 10 ? "vid  active" : "vid"}
         on:mouseenter={() => {
           active = 10;
         }}
@@ -166,7 +166,7 @@
         <img class="video" src="/images/thumbs/isac.jpg" alt="video" />
       </div>
       <div
-        class={active === 11 ? "vid hideVideo active" : "vid hideVideo"}
+        class={active === 11 ? "vid hideTest2 active" : "vid hideTest2"}
         on:mouseenter={() => {
           active = 11;
         }}
@@ -346,6 +346,11 @@
     }
 
     .videos {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+    }
+
+    .testimonials .videos {
       grid-template-columns: repeat(2, 1fr);
       gap: 5px;
     }
