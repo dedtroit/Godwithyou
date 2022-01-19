@@ -3,7 +3,7 @@
   <div class="ate">ATE</div>
   <div class="attention">
     <img class="line" src="/images/line.png" alt="graffiti line" />Don't<br /> be
-    a stranger
+    a <br />stranger
   </div>
   <div class="contact">
     <div class="personal">
@@ -74,8 +74,8 @@
   .attention {
     font-family: Geomanist Book;
     padding-top: 50px;
-    font-size: 27rem;
-      line-height: 20rem;
+    font-size: 23rem;
+    line-height: 19rem;
   }
 
   .contact {
