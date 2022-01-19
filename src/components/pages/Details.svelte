@@ -56,6 +56,10 @@
     text-decoration: none;
   }
 
+  .links a, .links span {
+    white-space: nowrap;
+  }
+
   .links span:hover, .links a:hover {
     text-decoration: underline;
     cursor: pointer;
