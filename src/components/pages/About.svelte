@@ -40,7 +40,7 @@
           height="6"
           viewBox="0 0 100 6"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
         >
           <line y1="3" x2="130" y2="3" stroke="white" stroke-width="3" />
         </svg>
@@ -50,7 +50,7 @@
           height="6"
           viewBox="0 0 120 6"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
         >
           <line y1="3" x2="120" y2="3" stroke="white" stroke-width="3" />
         </svg>
@@ -60,7 +60,7 @@
           height="6"
           viewBox="0 0 90 6"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
         >
           <line y1="3" x2="90" y2="3" stroke="white" stroke-width="3" />
         </svg>
@@ -70,7 +70,7 @@
           height="6"
           viewBox="0 0 60 6"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
         >
           <line y1="3" x2="60" y2="3" stroke="white" stroke-width="3" />
         </svg>
@@ -90,7 +90,7 @@
     </div>
     <div class="mobile">
       <div class="line">
-        <svg width="2" height="290" viewBox="0 0 2 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="2" height="290" viewBox="0 0 2 290" fill="none" xmlns="https://www.w3.org/2000/svg">
           <line x1="1" y1="4.37114e-08" x2="0.99998" y2="290" stroke="#89898955" stroke-width="2"/>
         </svg>
           
