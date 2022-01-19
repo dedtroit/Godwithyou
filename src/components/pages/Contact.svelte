@@ -74,8 +74,8 @@
   .attention {
     font-family: Geomanist Book;
     padding-top: 50px;
-    font-size: 23rem;
-    line-height: 19rem;
+    font-size: 20rem;
+    line-height: 15rem;
   }
 
   .contact {
@@ -112,15 +112,15 @@
     }
 
     .attention {
-      font-size: 20rem;
-      line-height: 15rem;
+      font-size: 14rem;
+      line-height: 11rem;
     }
 
     .line {
-        width: 1000px;
+        width: 750px;
         position: absolute;
-        margin-top: -150px;
-        margin-left: -90px;
+        margin-top: -110px;
+        margin-left: -80px;
         opacity: 0.5;
       }
     
