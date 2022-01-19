@@ -143,22 +143,22 @@
     <div class="videos">
       <img
         class="video"
-        src="https://placehold.jp/ffffff/621d1d/240x350.png"
+        src="https://placehold.jp/ffffff/621d1d/240x280.png"
         alt="video"
       />
       <img
         class="video"
-        src="https://placehold.jp/ffffff/621d1d/240x350.png"
+        src="https://placehold.jp/ffffff/621d1d/240x280.png"
         alt="video"
       />
       <img
         class="video hideTest2"
-        src="https://placehold.jp/ffffff/621d1d/240x350.png"
+        src="https://placehold.jp/ffffff/621d1d/240x280.png"
         alt="video"
       />
       <img
         class="video hideTest1"
-        src="https://placehold.jp/ffffff/621d1d/240x350.png"
+        src="https://placehold.jp/ffffff/621d1d/240x280.png"
         alt="video"
       />
     </div>
