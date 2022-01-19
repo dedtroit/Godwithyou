@@ -129,12 +129,11 @@
       CREATE THE PERFECT VISUAL FOR YOUR BRAND.
     </div>
     <div
-      class="contact swiper-button-disabled"
-      on:click={() => {
-        goTo('contact');
-      }}
+      class="contact"
     >
-      CONTACT TODAY
+      <span on:click={() => {
+        goTo('contact');
+      }}>CONTACT TODAY</span>
     </div>
   </div>
 </div>
@@ -241,6 +240,15 @@
   .contact {
     cursor: pointer;
     padding-bottom: 20px;
+    display: flex;
+  }
+
+  .contact span {
+    font-size: 12px;
+    padding: 10px 30px;
+    width: 150px;
+    text-align: center;
+    background-color: #716c5e; 
   }
 
   .info {

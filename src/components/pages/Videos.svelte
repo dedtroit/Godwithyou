@@ -182,14 +182,15 @@
     </div>
   </div>
   <div class="contact">
-    <div
+    <span
       on:click={() => {
         goTo("contact");
       }}
     >
       CONTACT TODAY
-    </div>
+    </span>
   </div>
+  <div></div>
 </div>
 
 <style>
@@ -281,7 +282,7 @@
 
   .video {
     width: 100%;
-    max-width: 240px;
+    max-width: 200px;
   }
 
   .videos {
@@ -307,6 +308,14 @@
     justify-content: center;
     margin-top: -20px;
     font-size: 20px;
+  }
+
+  .contact span {
+    font-size: 12px;
+    padding: 10px 30px;
+    width: 150px;
+    text-align: center;
+    background-color: #716c5e; 
   }
 
   @media only screen and (max-width: 1000px) {
