@@ -74,7 +74,7 @@
           playVideo("E4Qyt10AZZo");
         }}
       >
-        <img class="video" src="/images/thumbs/wordly.webp" alt="video" />
+        <img class="video" src="/images/thumbs/world.webp" alt="video" />
       </div>
       <div
         class={active === 4 ? "vid active" : "vid"}
@@ -86,7 +86,7 @@
           playVideo("k_LUKn03gZA")
         }}
       >
-        <img class="video" src="/images/thumbs/adam.webp" alt="video" />
+        <img class="video" src="/images/thumbs/adam1.webp" alt="video" />
       </div>
       <div
         class={active === 5 ? "vid active" : "vid"}
