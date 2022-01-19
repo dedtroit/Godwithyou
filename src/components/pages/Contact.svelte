@@ -79,6 +79,7 @@
   }
 
   .contact {
+    z-index: 5;
     padding-bottom: 40px;
     display: flex;
     flex-direction: row;
