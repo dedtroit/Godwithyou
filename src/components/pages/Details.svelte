@@ -59,6 +59,7 @@
     color: white;
     font-size: 12px;
     margin-bottom: 20px;
+    cursor: pointer;
   }
 
   .contact div {

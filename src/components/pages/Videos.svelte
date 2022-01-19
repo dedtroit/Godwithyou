@@ -83,7 +83,7 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("k_LUKn03gZA")
+          playVideo("k_LUKn03gZA");
         }}
       >
         <img class="video" src="/images/thumbs/adam1.webp" alt="video" />
@@ -95,7 +95,7 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("N8ThBhwXEhs")
+          playVideo("N8ThBhwXEhs");
         }}
       >
         <img class="video" src="/images/thumbs/crazy.webp" alt="video" />
@@ -107,7 +107,7 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("mnKoCQzTRk4")
+          playVideo("mnKoCQzTRk4");
         }}
       >
         <img class="video" src="/images/thumbs/wogo.webp" alt="video" />
@@ -119,7 +119,7 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("in1ozucqYC8")
+          playVideo("in1ozucqYC8");
         }}
       >
         <img class="video" src="/images/thumbs/fake.webp" alt="video" />
@@ -131,7 +131,7 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("Ux5CqcziIr8")
+          playVideo("Ux5CqcziIr8");
         }}
       >
         <img class="video" src="/images/thumbs/beach.webp" alt="video" />
@@ -141,26 +141,42 @@
   <div class="testimonials">
     <div class="title">TESTIMONIALS</div>
     <div class="videos">
-      <img
-        class="video"
-        src="https://placehold.jp/ffffff/621d1d/240x280.png"
-        alt="video"
-      />
-      <img
-        class="video"
-        src="https://placehold.jp/ffffff/621d1d/240x280.png"
-        alt="video"
-      />
-      <img
-        class="video hideTest2"
-        src="https://placehold.jp/ffffff/621d1d/240x280.png"
-        alt="video"
-      />
-      <img
-        class="video hideTest1"
-        src="https://placehold.jp/ffffff/621d1d/240x280.png"
-        alt="video"
-      />
+      <div
+        class={active === 9 ? "vid hideVideo active" : "vid hideVideo"}
+        on:mouseenter={() => {
+          active = 9;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("IEjBCIugLjg");
+        }}
+      >
+        <img class="video" src="/images/thumbs/wogo.jpg" alt="video" />
+      </div>
+      <div
+        class={active === 10 ? "vid hideVideo active" : "vid hideVideo"}
+        on:mouseenter={() => {
+          active = 10;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("xT5jfGwMS-4");
+        }}
+      >
+        <img class="video" src="/images/thumbs/isac.jpg" alt="video" />
+      </div>
+      <div
+        class={active === 11 ? "vid hideVideo active" : "vid hideVideo"}
+        on:mouseenter={() => {
+          active = 11;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("cxWYRQxPkwI");
+        }}
+      >
+        <img class="video" src="/images/thumbs/lovel.jpg" alt="video" />
+      </div>
     </div>
   </div>
   <div class="contact">
@@ -188,7 +204,7 @@
     position: absolute;
     left: 20px;
     top: 20px;
-    background-color: #ffffff33;
+    background-color: #ffffff55;
     padding: 5px;
   }
 
@@ -223,10 +239,6 @@
     flex-direction: column;
     position: relative;
     cursor: pointer;
-  }
-
-  .video-hover {
-    opacity: 0.8;
   }
 
   .content {
@@ -272,7 +284,16 @@
     max-width: 1920px;
   }
 
+  .testimonials .videos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .testimonials {
+    width: 100%;
+  }
+
   .contact {
+    cursor: pointer;
     display: flex;
     color: white;
     padding-top: 20px;

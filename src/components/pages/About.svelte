@@ -239,6 +239,7 @@
   }
 
   .contact {
+    cursor: pointer;
     padding-bottom: 20px;
   }
 
