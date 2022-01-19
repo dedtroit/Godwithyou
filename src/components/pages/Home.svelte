@@ -234,10 +234,6 @@
 
   @media only screen and (max-width: 400px) {
 
-    .cre, .ate {
-      font-size: 150px;
-    }
-
     .thatway img {
       width: 230px;
     }

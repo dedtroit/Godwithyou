@@ -23,7 +23,9 @@
 <div class="content">
   {#if videoPlaying}
     <div class="player-model">
-      <div class="player-close" on:click={stopVideo}>CLOSE</div>
+      <div class="player-close" on:click={stopVideo}>
+        <img src="/images/x.png" alt="close">
+      </div>
       <div class="video-player">
         <iframe
           width="80%"
@@ -204,8 +206,12 @@
     position: absolute;
     left: 20px;
     top: 20px;
-    background-color: #ffffff55;
     padding: 5px;
+  }
+
+  .player-close img{
+    width: 30px;
+
   }
 
   .active {
@@ -275,6 +281,7 @@
 
   .video {
     width: 100%;
+    max-width: 450px;
   }
 
   .videos {
@@ -289,7 +296,6 @@
   }
 
   .testimonials {
-    width: 100%;
   }
 
   .contact {
@@ -313,10 +319,6 @@
     }
 
     .hideVideo {
-      display: none;
-    }
-
-    .hideTest1 {
       display: none;
     }
 
