@@ -18,7 +18,7 @@
       <span class="highlight-white">Music video</span>
       <span class="highlight-white">Brand video</span>
       <span>Wedding Films</span>
-      <span>Lyric videos</span>
+      <span>Lyric videos</span><br>
       <span>Post Production</span>
       <span>Web design</span>
       <span>Graphic design</span>
@@ -82,6 +82,12 @@
 
   .content div:last-child {
       padding-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .links br {
+      display: none;
+    }
   }
 
   @media only screen and (max-width: 1000px) {
