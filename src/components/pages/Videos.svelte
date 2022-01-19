@@ -11,6 +11,13 @@
   function stopVideo() {
     videoPlaying = false;
   }
+
+  let active = 0;
+  function clearActive() {
+    active = 0;
+  }
+
+  $: console.log(active);
 </script>
 
 <div class="content">
@@ -33,57 +40,102 @@
   <div class="videos-wrapper">
     <div class="title">PROJECTS</div>
     <div class="videos">
-      <div class="vid">
-        <img class="video" src="/images/thumbs/video1.webp" alt="video" />
-        <div
-          class="playhead"
-          on:click={() => {
-            playVideo("i7EJ2PDCZ6E");
-          }}
-        >
-          <img src="/images/playhead.png" alt="play button" />
-        </div>
+      <div
+        class={active === 1 ? "vid active" : "vid"}
+        on:mouseenter={() => {
+          active = 1;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("fiEI0SF_Bgg");
+        }}
+      >
+        <img class="video" src="/images/thumbs/free.webp" alt="video" />
       </div>
-      <img
-        class="video"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
-      <img
-        class="video"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
-      <img
-        class="video"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
-      <img
-        class="video"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
-      <img
-        class="video"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
-      <img
-        class="video hideVideo"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
-      <img
-        class="video hideVideo"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
-      <img
-        class="video hideVideo hideVideo1"
-        src="http://placehold.jp/ffffff/621d1d/240x135.png"
-        alt="video"
-      />
+      <div
+        class={active === 2 ? "vid active" : "vid"}
+        on:mouseenter={() => {
+          active = 2;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("69lu3JinuO0");
+        }}
+      >
+        <img class="video" src="/images/thumbs/nottoday.webp" alt="video" />
+      </div>
+      <div
+        class={active === 3 ? "vid active" : "vid"}
+        on:mouseenter={() => {
+          active = 3;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("E4Qyt10AZZo");
+        }}
+      >
+        <img class="video" src="/images/thumbs/wordly.webp" alt="video" />
+      </div>
+      <div
+        class={active === 4 ? "vid active" : "vid"}
+        on:mouseenter={() => {
+          active = 4;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("k_LUKn03gZA")
+        }}
+      >
+        <img class="video" src="/images/thumbs/adam.webp" alt="video" />
+      </div>
+      <div
+        class={active === 5 ? "vid active" : "vid"}
+        on:mouseenter={() => {
+          active = 5;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("N8ThBhwXEhs")
+        }}
+      >
+        <img class="video" src="/images/thumbs/crazy.webp" alt="video" />
+      </div>
+      <div
+        class={active === 6 ? "vid active" : "vid"}
+        on:mouseenter={() => {
+          active = 6;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("mnKoCQzTRk4")
+        }}
+      >
+        <img class="video" src="/images/thumbs/wogo.webp" alt="video" />
+      </div>
+      <div
+        class={active === 7 ? "vid hideVideo active" : "vid hideVideo"}
+        on:mouseenter={() => {
+          active = 7;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("in1ozucqYC8")
+        }}
+      >
+        <img class="video" src="/images/thumbs/fake.webp" alt="video" />
+      </div>
+      <div
+        class={active === 8 ? "vid hideVideo active" : "vid hideVideo"}
+        on:mouseenter={() => {
+          active = 8;
+        }}
+        on:mouseleave={clearActive}
+        on:click={() => {
+          playVideo("Ux5CqcziIr8")
+        }}
+      >
+        <img class="video" src="/images/thumbs/beach.webp" alt="video" />
+      </div>
     </div>
   </div>
   <div class="testimonials">
@@ -128,6 +180,7 @@
     background-color: #00000055;
     width: 100vw;
     height: 100vh;
+    z-index: 10;
   }
 
   .player-close {
@@ -139,6 +192,23 @@
     padding: 5px;
   }
 
+  .active {
+    opacity: 0.8;
+  }
+
+  .vid:after {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 44px;
+    background: url("/images/playhead.png");
+    background-size: cover;
+    content: "";
+    cursor: pointer;
+  }
+
   .video-player {
     display: flex;
     height: 100%;
@@ -148,23 +218,15 @@
   }
 
   .vid {
-    display: flex;
+    height: fit-content;
+    display: inline-block;
     flex-direction: column;
-  }
-
-  .playhead {
+    position: relative;
     cursor: pointer;
-    width: 100%;
-    height: 100%;
-    background: #00000055;
   }
 
-  .playhead:hover {
-    background-color: #00000055;
-  }
-
-  .playhead img {
-    width: 25px;
+  .video-hover {
+    opacity: 0.8;
   }
 
   .content {
@@ -218,10 +280,6 @@
     justify-content: center;
     margin-top: -20px;
     font-size: 20px;
-  }
-
-  .hideVideo1 {
-    display: none;
   }
 
   @media only screen and (max-width: 1000px) {
