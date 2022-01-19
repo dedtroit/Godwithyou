@@ -15,13 +15,12 @@
       other company's that can help with those needs.
     </div>
     <div class="links">
-      <span class="highlight-white">Music video</span>
-      <span class="highlight-white">Brand video</span>
-      <span>Wedding Films</span>
-      <span>Lyric videos</span><br>
-      <span>Post Production</span>
-      <span>Web design</span>
-      <span>Graphic design</span>
+      <span class="highlight-white" on:click={() => {goTo("videos")}}>Music video</span>
+      <span class="highlight-white" on:click={() => {goTo("videos")}}>Brand video</span>
+      <a href="https://www.devotionfilms.net/" target="_blank">Wedding Films</a>
+      <a href="https://www.youtube.com/channel/UCPtqGubo5NHQXaRdah7Z9HA">Lyric videos</a><br>
+      <a href="https://www.youtube.com/channel/UCSixrLIxgKrbpCwVZwQ1NRw">Post Production</a>
+      <a href="https://lebich.dev?r=dm">Web design</a>
     </div>
     
   </div>
@@ -40,6 +39,7 @@
   }
 
   .highlight-white {
+    cursor: pointer;
     color: white;
   }
 
@@ -50,6 +50,17 @@
     text-transform: uppercase;
     font-weight: 300;
   }
+
+  .links a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .links span:hover, .links a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
   .links span {
     padding-right: 15px;
     white-space: nowrap;
