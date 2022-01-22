@@ -198,7 +198,7 @@
     position: absolute;
     background-color: #00000055;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: 10;
   }
 
@@ -296,9 +296,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .testimonials {
-  }
-
   .contact {
     cursor: pointer;
     display: flex;
@@ -364,6 +361,15 @@
     .testimonials .videos {
       grid-template-columns: repeat(2, 1fr);
       gap: 5px;
+    }
+
+
+
+    .testimonials .video {
+      height: 120px;
+      object-fit: cover;
+      object-position: center 20%;
+
     }
 
     .hideVideo {

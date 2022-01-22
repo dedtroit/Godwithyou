@@ -67,7 +67,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     justify-content: space-between;
     padding: 0px 20px 0px 0px;
   }
@@ -253,7 +253,7 @@
     }
 
     .attention {
-      padding-top: 150px;
+      padding-top: 130px;
     }
 
     .attention {
