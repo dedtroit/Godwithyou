@@ -8,7 +8,7 @@
   <div class="contact">
     <div class="personal">
       <div>
-        <img class="donot" src="/images/dnont.png" alt="Graffiti Do Not" />
+        <img class="donot" src="/images/dnont.png" alt="Graffiti Do Not enter" />
       </div>
       <div class="cta">REACH OUT TO</div>
       <div>
