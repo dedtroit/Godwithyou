@@ -3,22 +3,12 @@
 </script>
 
 <div class="content">
-  <img
-    class="about"
-    src="/images/about.png"
-    alt="About"
-  />
   <div class="timeline">
     <div class="profile">
       <img
         class="image"
         src="/images/danny-overlay.jpg"
         alt="Danny Matthews"
-      />
-      <img
-        class="about-logo"
-        src="/images/about.png"
-        alt="About"
       />
     </div>
     <div class="desktop">

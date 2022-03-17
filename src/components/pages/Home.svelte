@@ -12,7 +12,8 @@
       </div>
       <div on:click={()=> {goTo('contact')}} class="contact">CONTACT TODAY</div>
     </div>    
-    <div class="based">BASED IN SACRAMENTO, CALIFORNIA</div>
+    <div class="based">SACRAMENTO, CA</div>
+    <div class="based2">38.5816° N, 121.4944° W</div>
   </div>
   <div class="hero">
     <h1>Custom content<br> for your brand</h1>
@@ -20,9 +21,7 @@
     <div on:click={()=> {goTo('contact')}} class="contact">CONTACT TODAY</div>
   </div>
   <div class="spacer"></div>
-  <div class="thatway">
-    <img src="/images/scroll2.png" alt="graffiti that way">
-  </div>
+
 </div>
 <style>
 
@@ -51,10 +50,14 @@
     color: #00000066;
     font-size: 15px;
   }
+   .based2 {
+    color: #00000066;
+    font-size: 15px;
+  }
 
   .logo {
-    width: 175px;
-    padding-top: 20px;
+    width: 120px;
+    padding-top: 15px;
   } 
 
   .header { 
@@ -195,6 +198,9 @@
     } 
 
   .based {
+    font-size: 10px;
+  }
+  .based2 {
     font-size: 10px;
   }
 

@@ -2,13 +2,13 @@
   <div class="cre">CRE</div>
   <div class="ate">ATE</div>
   <div class="attention">
-    <img class="line" src="/images/line.png" alt="graffiti line" />Don't<br /> be
+    <img class="line" src="" alt="" />Don't<br /> be
     a <br />stranger
   </div>
   <div class="contact">
     <div class="personal">
       <div>
-        <img class="donot" src="/images/dnont.png" alt="Graffiti Do Not enter" />
+        <img class="donot" src="" alt="" />
       </div>
       <div class="cta">REACH OUT TO</div>
       <div>

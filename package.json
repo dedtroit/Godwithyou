@@ -16,6 +16,7 @@
   },
   "type": "module",
   "dependencies": {
+    "express": "^4.17.3",
     "swiper": "^7.4.1"
   }
 }

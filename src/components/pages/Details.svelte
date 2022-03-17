@@ -4,9 +4,6 @@
 
 <div class="content">
   <div></div>
-  <div>
-    <img class="washere" src="/images/washere.png" alt="Danny was here graffiti">
-  </div>
   <div class="center-content">
     <div class="about">
       Danny Matthews Creative specializes in <span class="highlight-white"
