@@ -18,7 +18,7 @@
         <div>2021-PRESENT</div>
       </div>
       <div class="row">
-        <div>EDITED PROMOS</div>
+        <div>EDITED VIDEOS</div>
         <div>CONTINUED EDITING FOR COMPANYS</div>
         <div>STARTED WORKING WITH ARTISTS</div>
         <div>EDITING FOR YOUTUBERS</div>
@@ -44,7 +44,7 @@
         >
           <line y1="3" x2="120" y2="3" stroke="white" stroke-width="3" />
         </svg>
-        <div>CREATED COMPANY</div>
+        <div>CREATED PRODUCTION COMPANY</div>
         <svg
           width="90"
           height="6"
@@ -112,19 +112,15 @@
 
   <div class="footer">
     <div class="info">
-      GOD CREATED ME TO BE A DESIGNER. THE CONTENT I CREATE IS TO HELP YOU WITH
+      GOD CREATED ME TO BE A DESIGNER. THE VIDEOS I CREATE IS TO HELP YOU WITH
       MARKETING AND TO GROW YOUR BRAND. I CREATE VISUALS BECAUSE I WAS CREATED
       TO. I'VE SEEN MANY VIDEOS AND FILMS, I'VE CREATED MANY VIDEOS AND FILMS,
       AND I KNOW WHAT WORKS FOR MARKETING AND WHAT DOESN'T. LET ME HELP YOU
       CREATE THE PERFECT VISUAL FOR YOUR BRAND.
     </div>
-    <div
-      class="contact"
-    >
-      <span on:click={() => {
-        goTo('contact');
-      }}>CONTACT TODAY</span>
-    </div>
+    <div class="contact">
+     <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a></div>
+  </div>
   </div>
 </div>
 
@@ -228,17 +224,19 @@
   }
 
   .contact {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 20px;
     cursor: pointer;
-    padding-bottom: 20px;
-    display: flex;
+    text-decoration: none;
   }
 
-  .contact span {
-    font-size: 12px;
-    padding: 10px 30px;
+  .contact div {
     width: 150px;
     text-align: center;
-    background-color: #716c5e; 
+    padding: 10px 30px !important;
+    background-color: #716c5e;
+    text-decoration: none; 
   }
 
   .info {

@@ -8,7 +8,7 @@
       <div class="local">
         <img src="/images/logo-small.png" alt="Logo" class="logo">
       </div>
-      <div on:click={()=> {goTo('contact')}} class="contact">CONTACT TODAY</div>
+      <a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a>
     </div>    
     <div class="based">SACRAMENTO, CA</div>
     <div class="based2">38.5816° N, 121.4944° W</div>
@@ -16,7 +16,7 @@
   <div class="hero">
     <div class="headercolr"><h1>Custom Video<br />Your brand</h1></div>
     <div class="subheadcolr"><h2>A video production studio creating <br>for your branding needs</h2></div>
-    <div on:click={()=> {goTo('contact')}} class="contact">CONTACT TODAY</div>
+    <a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a>
   </div>
   <div class="spacer"></div>
   <div class="footer"><p>swipe right</p></div>
@@ -74,6 +74,7 @@
     background-color: #716c5e; 
     color: white;
     text-align: center;
+    text-decoration: none;
     max-width: 300px;
     z-index: 2;
     cursor: pointer;

@@ -182,13 +182,7 @@
     </div>
   </div>
   <div class="contact">
-    <span
-      on:click={() => {
-        goTo("contact");
-      }}
-    >
-      CONTACT TODAY
-    </span>
+     <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a></div>
   </div>
   <div></div>
 </div>
@@ -297,22 +291,19 @@
   }
 
   .contact {
-    cursor: pointer;
-    display: flex;
     color: white;
-    padding-top: 20px;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: -20px;
-    font-size: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
   }
 
-  .contact span {
-    font-size: 12px;
-    padding: 10px 30px;
+  .contact div{
     width: 150px;
     text-align: center;
-    background-color: #716c5e; 
+    padding: 10px 30px !important;
+    background-color: #716c5e;
+    text-decoration: none; 
   }
 
   @media only screen and (max-width: 1000px) {

@@ -2,7 +2,6 @@
     export let goTo;
 </script>
 
-<title>Table of content</title>
 <div class="content">
   <div></div>
   <div class="center-content">
@@ -24,7 +23,7 @@
   </div>
   <div></div>
   <div class="contact">
-      <div on:click={()=> {goTo('contact')}}>CONTACT TODAY</div>
+      <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a></div>
   </div>
 </div>
 
@@ -73,6 +72,8 @@
     font-size: 12px;
     margin-bottom: 20px;
     cursor: pointer;
+    text-decoration: none;
+
   }
 
   .contact div {
@@ -80,6 +81,8 @@
     text-align: center;
     padding: 10px 30px !important;
     background-color: #716c5e;
+    text-decoration: none;
+
   }
 
   .content {
