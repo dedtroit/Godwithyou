@@ -273,8 +273,11 @@
       padding-bottom: 15px;
     }
 
-    .hero h3 {
+    .hero h2 {
       font-size: 11px;
+    }
+    .footer {
+      padding-bottom: 50px;
     }
 
    
