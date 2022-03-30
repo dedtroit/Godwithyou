@@ -120,7 +120,7 @@
     margin-bottom: 0px;
   }
 
-  .hero h3 {
+  .hero h2{
     margin-top: 0px;
     font-weight: 400 !important;
     font-size: 30px;
@@ -156,7 +156,7 @@
       padding-bottom: 15px;
     }
 
-    .hero h3 {
+    .hero h2 {
       font-size: 25px;
     }
 
@@ -173,7 +173,7 @@
       padding-bottom: 15px;
     }
 
-    .hero h3 {
+    .hero h2 {
       font-size: 25px;
     }
 
@@ -186,7 +186,7 @@
       padding-bottom: 15px;
     }
 
-    .hero h3 {
+    .hero h2 {
       font-size: 20px;
     }
 
@@ -229,7 +229,7 @@
       padding-bottom: 15px;
     }
 
-    .hero h3 {
+    .hero h2 {
       font-size: 15px;
       margin-bottom: 20px;
     }
