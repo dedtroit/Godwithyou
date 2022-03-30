@@ -2,6 +2,7 @@
     export let goTo;
 </script>
 
+<title>Table of content</title>
 <div class="content">
   <div></div>
   <div class="center-content">

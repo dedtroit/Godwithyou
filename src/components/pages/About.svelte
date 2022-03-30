@@ -153,7 +153,7 @@
     flex-direction: row;
     margin: auto;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 100px;
   }
 
   .mobile {
@@ -243,7 +243,7 @@
 
   .info {
     padding-bottom: 50px;
-    color: black;
+    color: rgb(100, 100, 100);
     text-align: center;
     font-size: 16px;
     max-width: 1000px;
@@ -312,7 +312,7 @@
 
     .far-right {
       text-align: right;
-      color: beige;
+      color: white;
       font-size: 10px;
     }
 

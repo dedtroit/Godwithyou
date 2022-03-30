@@ -2,9 +2,19 @@
   export let goTo;
 </script>
 
+<title>Home - Danny Matthews Video production &amp; branding</title>
+<meta name="keywords" content="video production services sacramento, sacramento video, sacramento videographers, lincoln video, lincoln video production, lincoln videographer video production sacramento, wedding video sacramento, wedding videographers sacramento, videographers San Francisco, multimedia company, branding, music videos, brand videos, video content, social media videos, graphic design, web design, dannymatthews, danny matthews"/>
+<meta name="description" content="We solve your issue of needing marketing content by creating the most engageing videos for your customers.">
+<meta name="robots" content="index, follow" />
+
+<link rel="canonical" href="http://www.dannymatthews.net"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Danny Matthews Video production &amp; branding" />
+<meta property="og:url" content="http://www.dannymatthews.net" />
+<meta property="og:site_name" content="Danny Matthews Video production &amp; branding" />
 
 <div class="content">
-
   <div class="header">
     <div class="topbar">
       <div class="local">
@@ -16,16 +26,29 @@
     <div class="based2">38.5816° N, 121.4944° W</div>
   </div>
   <div class="hero">
-    <h1>Custom content<br> for your brand</h1>
-    <h3>A digital production studio creating <br>for your branding needs</h3>
+    <div class="headercolr"><h1>Custom Video<br />Your brand</h1></div>
+    <div class="subheadcolr"><h2>A video production studio creating <br>for your branding needs</h2></div>
     <div on:click={()=> {goTo('contact')}} class="contact">CONTACT TODAY</div>
   </div>
   <div class="spacer"></div>
+  <div class="footer"><p>swipe right</p></div>
 
 </div>
 <style>
+  .footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  
+  .headercolr{
+    color: white;
+    //font-family: FoundersGrotesk-Medium;
+  }
+  .subheadcolr{
+    color: rgb(90,90,90)
+  }
 
   .topbar {
     display: flex;
@@ -35,23 +58,12 @@
     align-items: center;
   }
 
-  .thatway {
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-  }
-
-  .thatway img {
-    width: 1500px;
-    opacity: .5;
-  }
-
   .based {
-    color: #00000066;
+    color: rgb(90, 90, 90);
     font-size: 15px;
   }
    .based2 {
-    color: #00000066;
+    color: rgb(90, 90, 90);
     font-size: 15px;
   }
 
@@ -71,6 +83,7 @@
     font-size: 15px;
     padding: 10px 50px;
     background-color: #716c5e; 
+    color: white;
     text-align: center;
     max-width: 300px;
     z-index: 2;
@@ -86,7 +99,6 @@
   .content {
     display: flex;
     flex-direction: column;
-    color: white;
     height: 100vh;
     padding-right: 50px;
     justify-content: space-between;
@@ -103,7 +115,7 @@
     font-weight: 400 !important;
     font-size: 110px;
     line-height: 90px;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     margin-bottom: 0px;
   }
 
@@ -119,14 +131,12 @@
 
   @media only screen and (max-width: 1200px) {
 
-    .hero h1 br {
-      display: none;
-    }
+    
 
     .hero h1 {
       font-size: 95px;
       line-height: 85px;
-      padding-bottom: 30px;
+      padding-bottom: 15px;
     }
 
   }
@@ -142,7 +152,7 @@
     .hero h1 {
       font-size: 80px;
       line-height: 70px;
-      padding-bottom: 30px;
+      padding-bottom: 15px;
     }
 
     .hero h3 {
@@ -159,7 +169,7 @@
     .hero h1 {
       font-size: 70px;
       line-height: 65px;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
     }
 
     .hero h3 {
@@ -172,7 +182,7 @@
     .hero h1 {
       font-size: 55px;
       line-height: 50px;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
     }
 
     .hero h3 {
@@ -215,7 +225,7 @@
     .hero h1 {
       font-size: 45px;
       line-height: 40px;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
     }
 
     .hero h3 {

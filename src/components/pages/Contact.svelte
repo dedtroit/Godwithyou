@@ -1,9 +1,8 @@
 <div class="content">
-  <div class="cre">CRE</div>
-  <div class="ate">ATE</div>
+ 
   <div class="attention">
-    <img class="line" src="" alt="" />Don't<br /> be
-    a <br />stranger
+    <img class="line" src="" alt="" />DON'T<br />BE A
+    <br /> STRANGER
   </div>
   <div class="contact">
     <div class="personal">
@@ -72,7 +71,7 @@
     padding: 0px 20px 0px 0px;
   }
   .attention {
-    font-family: Geomanist Book;
+    font-family: Krylon;
     padding-top: 50px;
     font-size: 20rem;
     line-height: 15rem;
