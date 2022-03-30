@@ -2,18 +2,6 @@
   export let goTo;
 </script>
 
-<title>Home - Danny Matthews Video production &amp; branding</title>
-<meta name="keywords" content="video production services sacramento, sacramento video, sacramento videographers, lincoln video, lincoln video production, lincoln videographer video production sacramento, wedding video sacramento, wedding videographers sacramento, videographers San Francisco, multimedia company, branding, music videos, brand videos, video content, social media videos, graphic design, web design, dannymatthews, danny matthews"/>
-<meta name="description" content="We solve your issue of needing marketing content by creating the most engageing videos for your customers.">
-<meta name="robots" content="index, follow" />
-
-<link rel="canonical" href="http://www.dannymatthews.net"/>
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Danny Matthews Video production &amp; branding" />
-<meta property="og:url" content="http://www.dannymatthews.net" />
-<meta property="og:site_name" content="Danny Matthews Video production &amp; branding" />
-
 <div class="content">
   <div class="header">
     <div class="topbar">
