@@ -40,7 +40,7 @@
     </div>
   {/if}
   <div class="videos-wrapper">
-    <div class="title">PROJECTS</div>
+    <div class="title">MUSIC VIDEOS</div>
     <div class="videos">
       <div
         class={active === 1 ? "vid active" : "vid"}
@@ -67,7 +67,7 @@
         <img class="video" src="/images/thumbs/nottoday.webp" alt="video" />
       </div>
       <div
-        class={active === 3 ? "vid active" : "vid"}
+        class={active === 3 ? "vid hideVideo active" : "vid hideVideo"}
         on:mouseenter={() => {
           active = 3;
         }}
@@ -79,7 +79,7 @@
         <img class="video" src="/images/thumbs/world.webp" alt="video" />
       </div>
       <div
-        class={active === 4 ? "vid active" : "vid"}
+        class={active === 4 ? "vid hideVideo active" : "vid hideVideo"}
         on:mouseenter={() => {
           active = 4;
         }}
@@ -90,6 +90,9 @@
       >
         <img class="video" src="/images/thumbs/adam1.webp" alt="video" />
       </div>
+      </div>
+    <div class="title">PROMO VIDEOS</div>
+    <div class="videos">
       <div
         class={active === 5 ? "vid active" : "vid"}
         on:mouseenter={() => {
@@ -97,10 +100,10 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("N8ThBhwXEhs");
+          playVideo("sYxyOT_M7VE");
         }}
       >
-        <img class="video" src="/images/thumbs/crazy.webp" alt="video" />
+        <img class="video" src="/images/thumbs/Liberty university airforce.jpg" alt="video" />
       </div>
       <div
         class={active === 6 ? "vid active" : "vid"}
@@ -109,37 +112,39 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("mnKoCQzTRk4");
+          playVideo("eAz80xwOoSw");
         }}
       >
-        <img class="video" src="/images/thumbs/wogo.webp" alt="video" />
+        <img class="video" src="/images/thumbs/otbt.jpg" alt="video" />
       </div>
       <div
-        class={active === 7 ? "vid hideVideo active" : "vid hideVideo"}
+        class={active === 7 ? "vid  active" : "vid"}
         on:mouseenter={() => {
           active = 7;
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("in1ozucqYC8");
+          playVideo("40b3I0i0rbk");
         }}
       >
-        <img class="video" src="/images/thumbs/fake.webp" alt="video" />
+        <img class="video" src="/images/thumbs/car.jpg" alt="video" />
       </div>
+
       <div
-        class={active === 8 ? "vid hideVideo active" : "vid hideVideo"}
+        class={active === 8 ? "vid  active" : "vid"}
         on:mouseenter={() => {
           active = 8;
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("Ux5CqcziIr8");
+          playVideo("N8ThBhwXEhs");
         }}
       >
-        <img class="video" src="/images/thumbs/beach.webp" alt="video" />
+        <img class="video" src="/images/thumbs/crazy.webp" alt="video" />
       </div>
     </div>
   </div>
+
   <div class="testimonials">
     <div class="title">TESTIMONIALS</div>
     <div class="videos">
@@ -182,7 +187,7 @@
     </div>
   </div>
   <div class="contact">
-     <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a></div>
+     <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">GET FREE QUOTE</a></div>
   </div>
   <div></div>
 </div>
@@ -257,12 +262,12 @@
   }
 
   .videos-wrapper .title {
-    padding-right: 170px;
-    text-align: right;
+    padding-right: 0px;
+    text-align: left;
   }
 
   .testimonials .title {
-    padding-left: 170px;
+    padding-left: 0px;
   }
 
   .content div:last-child {

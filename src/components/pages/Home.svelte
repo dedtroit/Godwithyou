@@ -8,32 +8,50 @@
       <div class="local">
         <img src="/images/logo-small.png" alt="Logo" class="logo">
       </div>
-      <a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a>
+      <a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">GET FREE QUOTE</a>
     </div>    
     <div class="based">SACRAMENTO, CA</div>
     <div class="based2">38.5816° N, 121.4944° W</div>
   </div>
   <div class="hero">
     <div class="headercolr"><h1>Custom Video<br />Your brand</h1></div>
-    <div class="subheadcolr"><h2>full service video production studio <br>creating films and video content</h2></div>
-    <a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a>
+    <div class="subheadcolr"><h2>full service video production studio <br>creating films and promo content</h2></div>
+    <a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">GET FREE QUOTE</a>
+        <div class="spacer2"></div>
+    <div class="contact" on:click={() => {goTo("videos")}}>VIEW WORK</div>
   </div>
+
   <div class="spacer"></div>
-  <div class="footer"><p>swipe right</p></div>
+  <div class="footer">
+    <div class="footer-wrapper">
+			Swipe right
+			<svg width="126" height="8" viewBox="0 0 126 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M125.354 4.35354C125.549 4.15828 125.549 3.8417 125.354 3.64644L122.172 0.464455C121.976 0.269193 121.66 0.269193 121.464 0.464455C121.269 0.659718 121.269 0.9763 121.464 1.17156L124.293 3.99999L121.464 6.82842C121.269 7.02368 121.269 7.34026 121.464 7.53552C121.66 7.73079 121.976 7.73079 122.172 7.53552L125.354 4.35354ZM4.37114e-08 4.5L125 4.49999L125 3.49999L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="black"/>
+				</svg>
+		</div>
+  </div>
 
 </div>
 <style>
+  .spacer2 {
+  padding-top: 10px;
+  }
   .footer {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
+    font-size: 20px;
   }
+  .footer-wrapper {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+	}
 
   .headercolr{
     color: white;
-    //font-family: FoundersGrotesk-Medium;
   }
   .subheadcolr{
     color: rgb(90,90,90)
@@ -116,7 +134,7 @@
   }
 
   .spacer {
-    height: 100px;
+    height: 0px;
   }
 
   @media only screen and (max-width: 1200px) {
@@ -138,6 +156,7 @@
     .thatway img {
       width: 750px;
     }
+    
 
     .hero h1 {
       font-size: 80px;
@@ -165,6 +184,9 @@
     .hero h2 {
       font-size: 25px;
     }
+        .footer {
+    font-size: 25px;
+  }
 
   }
 
@@ -178,12 +200,18 @@
     .hero h2 {
       font-size: 20px;
     }
+      .footer {
+    font-size: 20px;
+  }
 
   }
 
   @media only screen and (max-width: 600px) {
 
-
+    .footer {
+    font-size: 20px;
+    padding-bottom: 100px;
+  }
 
     .thatway {
       bottom: 100px;

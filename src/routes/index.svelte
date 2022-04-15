@@ -9,6 +9,7 @@
 	import About from "../components/pages/About.svelte";
 	import Contact from "../components/pages/Contact.svelte";
 	import Home from "../components/pages/Home.svelte";
+	import Q_A from "../components/pages/Q_A.svelte";
   
 	// Import Swiper styles
 	import "swiper/css";
@@ -32,6 +33,7 @@
 			case "videos": num = 2; break;
 			case "about": num = 3; break;
 			case "contact": num = 4; break;
+			case "Q_A": num = 5; break;
 			default: num = 0;
 		}
 		try {
@@ -53,6 +55,8 @@
 		case "#videos": goTo('videos'); break;
 		case "#about": goTo('about'); break;
 		case "#contact": goTo('contact'); break;
+		case "#Q_A": goTo('Q_A'); break;
+
 	}
   </script>
   
@@ -93,11 +97,10 @@
 			  </div>
 			</div>
 	  </SwiperSlide>
-	  
 	  <SwiperSlide>
 		  <div class="page">
 			  <div class="padding">
-				  <Contact />
+				  <Contact goTo={goTo} />
 			  </div>
 			</div>
 	  </SwiperSlide>
@@ -108,7 +111,9 @@
   <style>
 	main {
 	  height: 100%;
+	  position: relative;
 	}
+
 	.page {
 	  height: 100%;
 	}

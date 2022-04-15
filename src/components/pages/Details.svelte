@@ -7,13 +7,13 @@
   <div class="center-content">
     <div class="about">
       Danny Matthews Creative specializes in <span class="highlight-white"
-        >music and brand videos,</span
+        >promo and music videos,</span
       ><br> but we understand that you may be looking for more than that.<br>We have listed
       other company's that can help with those needs.
     </div>
     <div class="links">
+      <span class="highlight-white" on:click={() => {goTo("videos")}}>Promo video</span>
       <span class="highlight-white" on:click={() => {goTo("videos")}}>Music video</span>
-      <span class="highlight-white" on:click={() => {goTo("videos")}}>Brand video</span>
       <a href="https://www.devotionfilms.net/" target="_blank">Wedding Films</a>
       <a href="https://www.youtube.com/channel/UCPtqGubo5NHQXaRdah7Z9HA">Lyric videos</a><br>
       <a href="https://www.youtube.com/channel/UCSixrLIxgKrbpCwVZwQ1NRw">Post Production</a>
@@ -23,17 +23,11 @@
   </div>
   <div></div>
   <div class="contact">
-      <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a></div>
+      <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">GET FREE QUOTE</a></div>
   </div>
 </div>
 
 <style>
-
-  .washere {
-    margin-left: 130px;
-    width: 250px;
-    opacity: .5;
-  }
 
   .highlight-white {
     cursor: pointer;

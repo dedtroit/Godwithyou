@@ -119,7 +119,7 @@
       CREATE THE PERFECT VISUAL FOR YOUR BRAND.
     </div>
     <div class="contact">
-     <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">CONTACT TODAY</a></div>
+     <div><a href="https://5f05y4m0px6.typeform.com/to/MeYHcHxE" class="contact">GET FREE QUOTE</a></div>
   </div>
   </div>
 </div>

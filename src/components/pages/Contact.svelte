@@ -1,3 +1,7 @@
+<script>
+  export let goTo;
+</script>
+
 <div class="content">
  
   <div class="attention">
@@ -29,38 +33,9 @@
 </div>
 
 <style>
-  .cre,
-  .ate {
-    font-size: 600px;
-    opacity: .09;
-    z-index: 0;
-    line-height: 450px;
-  }
 
-  .cre {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-  }
 
-  .ate {
-    position: absolute;
-    bottom: -20px;
-    left: 0px;
-  }
 
-  .line {
-    width: 1400px;
-    position: absolute;
-    margin-top: -250px;
-    margin-left: -120px;
-    opacity: 0.5;
-  }
-
-  .donot {
-    width: 100px;
-    opacity: 0.5;
-  }
 
   .content {
     color: white;
@@ -104,65 +79,37 @@
   }
 
   @media only screen and (max-width: 2000px) {
-    .cre,
-    .ate {
-      font-size: 500px;
-      line-height: 380px;
-    }
+
 
     .attention {
       font-size: 14rem;
       line-height: 11rem;
     }
 
-    .line {
-        width: 750px;
-        position: absolute;
-        margin-top: -110px;
-        margin-left: -80px;
-        opacity: 0.5;
-      }
+   
     
   }
 
 
   @media only screen and (max-width: 1700px) {
-    .cre,
-    .ate {
-      font-size: 500px;
-      line-height: 380px;
-    }
+ 
 
 
   }
 
   @media only screen and (max-width: 1300px) {
-    .cre,
-    .ate {
-      font-size: 400px;
-      line-height: 300px;
-    }
+ 
 
     .attention {
       font-size: 15rem;
       line-height: 13rem;
     }
 
-    .line {
-        width: 800px;
-        position: absolute;
-        margin-top: -105px;
-        margin-left: -70px;
-        opacity: 0.5;
-      }
+   
   }
 
   @media only screen and (max-width: 1000px) {
-    .cre,
-    .ate {
-      font-size: 300px;
-      line-height: 230px;
-    }
+  
   }
 
   @media only screen and (max-width: 860px) {
@@ -171,11 +118,7 @@
       line-height: 8rem;
     }
 
-    .line {
-      width: 550px;
-      margin-top: -80px;
-      margin-left: -60px;
-    }
+  
   }
 
   @media only screen and (max-width: 660px) {
@@ -184,37 +127,11 @@
       line-height: 6rem;
     }
 
-    .line {
-      width: 430px;
-      margin-top: -70px;
-      margin-left: -45px;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    .cre,
-    .ate {
-      font-size: 200px;
-      line-height: 230px;
-    }
-
-    .cre {
-      top: 70px;
-      right: 0px;
-    }
-
-    .ate {
-      bottom: -20px;
-      left: 0px;
-    }
+  
   }
 
   @media only screen and (max-width: 510px) {
-    .line {
-      width: 320px;
-      margin-top: -45px;
-      margin-left: -30px;
-    }
+ 
 
     .attention {
       padding-top: 150px;
@@ -241,15 +158,7 @@
   }
 
   @media only screen and (max-width: 400px) {
-    .cre, .ate {
-      font-size: 150px;
-    }
 
-    .line {
-      width: 240px;
-      margin-top: -34px;
-      margin-left: -25px;
-    }
 
     .attention {
       padding-top: 130px;
