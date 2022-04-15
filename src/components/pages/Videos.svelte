@@ -52,7 +52,7 @@
           playVideo("fiEI0SF_Bgg");
         }}
       >
-        <img class="video" src="/images/thumbs/free.webp" alt="video" />
+        <img class="video" src="/images/thumbs/k1.jpg" alt="video" />
       </div>
       <div
         class={active === 2 ? "vid active" : "vid"}
@@ -64,7 +64,7 @@
           playVideo("69lu3JinuO0");
         }}
       >
-        <img class="video" src="/images/thumbs/nottoday.webp" alt="video" />
+        <img class="video" src="/images/thumbs/sat1.jpg" alt="video" />
       </div>
       <div
         class={active === 3 ? "vid hideVideo active" : "vid hideVideo"}
@@ -73,10 +73,10 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("E4Qyt10AZZo");
+          playVideo("p2RTxr9ydpI");
         }}
       >
-        <img class="video" src="/images/thumbs/world.webp" alt="video" />
+        <img class="video" src="/images/thumbs/s1.jpg" alt="video" />
       </div>
       <div
         class={active === 4 ? "vid hideVideo active" : "vid hideVideo"}
@@ -85,10 +85,12 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("k_LUKn03gZA");
+          playVideo("02szS3NsXUY");
         }}
       >
-        <img class="video" src="/images/thumbs/adam1.webp" alt="video" />
+        <img class="video" src="/images/thumbs/i1.jpg" alt="video" />
+      </div>
+      <div>
       </div>
       </div>
     <div class="title">PROMO VIDEOS</div>
@@ -103,7 +105,7 @@
           playVideo("sYxyOT_M7VE");
         }}
       >
-        <img class="video" src="/images/thumbs/Liberty university airforce.jpg" alt="video" />
+        <img class="video" src="/images/thumbs/Lib1.jpg" alt="video" />
       </div>
       <div
         class={active === 6 ? "vid active" : "vid"}
@@ -137,10 +139,12 @@
         }}
         on:mouseleave={clearActive}
         on:click={() => {
-          playVideo("N8ThBhwXEhs");
+          playVideo("mnKoCQzTRk4");
         }}
       >
-        <img class="video" src="/images/thumbs/crazy.webp" alt="video" />
+        <img class="video" src="/images/thumbs/w1.jpg" alt="video" />
+      </div>
+      <div>
       </div>
     </div>
   </div>
