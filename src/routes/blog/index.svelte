@@ -53,11 +53,9 @@
     font-size: 30px;
   }
   .otherfont2{
-    font-family: "SUIT";
     font-size: 15px;
   }
   .otherfont3{
-    font-family: "SUIT";
     font-size: 15px;
     padding-top: 30px;
     padding-bottom: 30px;

@@ -1,5 +1,4 @@
 <script>
-  export let goTo;
 
   let videoPlaying = false;
   let playingID;

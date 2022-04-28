@@ -1,6 +1,4 @@
-<script>
-  export let goTo;
-</script>
+
 
 <div class="content">
   <div class="header">
