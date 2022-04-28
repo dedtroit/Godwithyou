@@ -1,0 +1,16 @@
+
+    header {
+        height: 100%;
+        width: 280px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    img {
+        width: 245px;
+        height: 136px;
+    }

@@ -1,6 +1,4 @@
-<script>
-  export let goTo;
-</script>
+
 
 <div class="content">
   <div class="timeline">
@@ -126,19 +124,6 @@
 
 <style>
 
-  .about {
-    width: 300px;
-    margin-top: 60px;
-    position: absolute;
-  }
-
-  .about-logo {
-    width: 120px;
-    position: absolute;
-    margin-top: -70px;
-    display: none;
-  }
-
   .image {
     padding-bottom: 10px;
     width: 120px;
@@ -249,13 +234,7 @@
 
   @media only screen and (max-width: 1750px) {
 
-    .about {
-      display: none;
-    }
 
-    .about-logo {
-      display: block;
-    }
 
     .line {
       position: absolute;

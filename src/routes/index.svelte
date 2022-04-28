@@ -56,7 +56,6 @@
 		case "#about": goTo('about'); break;
 		case "#contact": goTo('contact'); break;
 		case "#Q_A": goTo('Q_A'); break;
-
 	}
   </script>
   
@@ -113,7 +112,6 @@
 	  height: 100%;
 	  position: relative;
 	}
-
 	.page {
 	  height: 100%;
 	}
@@ -131,4 +129,3 @@
 	}
   
   </style>
-  

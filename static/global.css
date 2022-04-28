@@ -12,6 +12,10 @@
 	font-family: "FoundersGrotesk-Medium";
     src: url("/fonts/FoundersGrotesk-Medium.otf") format("opentype");
 }
+@font-face {
+	font-family: "SUIT";
+    src: url("/SUIT-Light.otf") format("opentype");
+}
 
 
 
@@ -26,7 +30,7 @@ body {
 	color: rgb(90, 90, 90);
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Krylon, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: Krylon, suit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a {

@@ -28,6 +28,9 @@
       <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCSixrLIxgKrbpCwVZwQ1NRw"
         >YOUTUBE</a
       >
+      <a class="blog" target="_blank" href="/blog"
+        >BLOG</a
+      >
     </div>
   </div>
 </div>
