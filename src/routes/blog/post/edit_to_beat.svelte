@@ -1,11 +1,14 @@
-<a class="blog" target="_blank" href="/blog/post/post1"
-        >How to edit to the beat</a
-      >
+<script>
+    import style from "$lib/styles/style.css";
+</script>
+
+<div class="date">04.27.2022</div>
+
 <div class="hero">
-    <div class="headercolr"><h1>How to edit<br />to the beat</h1></div>
+    <div class="headercolr"><h1>How to edit <br />to the beat</h1></div>
     <div class="subheadcolr">
-        <h2>In adobe premiere: 3 minute read <br /></h2>
-        <h3>Published on April, 27th 2022</h3>
+        <h2>In adobe premiere</h2>
+        <h3>3 minute read</h3>
         <h4>
             by Danny Matthews / <a
                 class="textdecor"
@@ -77,6 +80,14 @@
 </div>
 
 <style>
+    .date {
+        text-align: right;
+        color: rgb(90, 90, 90);
+        font-size: 15px;
+        font-family: monospace;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
     .responsive-iframe {
         top: 0;
         left: 0;
@@ -85,7 +96,6 @@
         width: 41.16%;
         height: 300px;
     }
-    
 
     .textdecor {
         text-decoration: none;
@@ -99,6 +109,7 @@
         display: flex;
         flex-direction: column;
         margin: 0px 400px;
+        font-family: "suit";
     }
     .spacer2 {
         padding-top: 30px;
@@ -109,9 +120,11 @@
 
     .headercolr {
         color: white;
+        font-family: "suit";
     }
     .subheadcolr {
         color: rgb(90, 90, 90);
+        font-family: "suit";
     }
 
     .hero {
@@ -123,9 +136,9 @@
 
     .hero h1 {
         font-weight: 400 !important;
-        font-size: 110px;
-        line-height: 90px;
-        padding-bottom: 15px;
+        font-size: 100px;
+        line-height: 80px;
+        padding-bottom: 0px;
         margin-bottom: 0px;
     }
 

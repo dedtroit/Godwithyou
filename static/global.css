@@ -12,6 +12,10 @@
 	font-family: "FoundersGrotesk-Medium";
     src: url("/fonts/FoundersGrotesk-Medium.otf") format("opentype");
 }
+@font-face {
+	font-family: "suit";
+    src: url("/fonts/SUIT-Light.otf") format("opentype");
+}
 
 
 
