@@ -93,7 +93,7 @@
   <div class="column">
     <div>
       <a class="otherfont" href="/blog/post/make_video_editing_port"
-        >The jump cut<br />
+        >Making an editing portfolio<br />
         in adobe premiere
       </a>
     </div>
