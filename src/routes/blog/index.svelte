@@ -2,6 +2,7 @@
   import { exclude_internal_props } from "svelte/internal";
 </script>
 
+
 <div class="headback">
   <div>
     <a href="https://www.dannymatthews.net">
@@ -19,7 +20,7 @@
 
 <div class="row">
   <div class="column">
-    <div class="blog">04.27.2022</div>
+    <div class="date">04.27.2022</div>
   </div>
   <div class="column">
     <div>
@@ -53,7 +54,7 @@
 
 <div class="row">
   <div class="column">
-    <div class="blog">04.20.2022</div>
+    <div class="date">04.20.2022</div>
   </div>
   <div class="column">
     <div>
@@ -87,7 +88,7 @@
 
 <div class="row">
   <div class="column">
-    <div class="blog">04.15.2022</div>
+    <div class="date">04.15.2022</div>
   </div>
   <div class="column">
     <div>
@@ -121,17 +122,16 @@
   </div>
 </div>
 
-
-
-
-
-
-
-
-
 <div class="spacer" />
 
 <style>
+  .date{
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-size: 18px;
+    font-family: Akkurat-Mono;
+  }
   .headback {
     background-color: #000;
   }
@@ -156,8 +156,8 @@
     padding-top: 15px;
   }
   .line {
-    border: 1px solid #000;
-    width: 100%;
+    border: .8px solid #000;
+    width: 93%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -222,5 +222,97 @@
     color: rgb(90, 90, 90);
     font-size: 18px;
     font-family: Akkurat-Mono;
+  }
+  @media only screen and (max-width: 1200px) {
+  }
+  @media only screen and (max-width: 992px) {
+    .header {
+    font-size: 40px;
+  }
+  .subhead {
+    font-size: 15px;
+  }
+
+  .spacer {
+    padding-top: 50px;
+  }
+    .img {
+    padding-left: 20px;
+    width: 225px;
+    height: 115px;
+  }
+    .otherfont {
+    font-size: 20px;
+    padding-right: 0px;
+    position: absolute;
+  }
+  .otherfont2 {
+    font-size: 8px;
+    padding-right: 0px;
+    padding-top: 50px;
+
+  }
+
+  .otherfont3 {
+    font-size: 8px;
+    padding-right: 0px;
+    
+  }
+
+  .blog {
+ 
+    font-size: 10px;
+    padding-right: 0px;
+  }
+  .date {
+ padding-top: 15px;
+ font-size: 10px;
+ padding-right: 0px;
+}
+  }
+  @media only screen and (max-width: 768px) {
+  }
+  @media only screen and (max-width: 600px) {
+    .header {
+    font-size: 40px;
+  }
+  .subhead {
+    font-size: 15px;
+  }
+
+  .spacer {
+    padding-top: 50px;
+  }
+    .img {
+    display: none;
+  }
+    .otherfont {
+    font-size: 20px;
+    padding-right: 0px;
+    position: absolute;
+  }
+  .otherfont2 {
+    font-size: 8px;
+    padding-right: 0px;
+    padding-top: 50px;
+
+  }
+
+  .otherfont3 {
+    font-size: 8px;
+    padding-right: 0px;
+    
+  }
+
+  .blog {
+ 
+    font-size: 10px;
+    padding-right: 0px;
+  }
+  .date {
+ padding-top: 15px;
+ font-size: 10px;
+ padding-right: 0px;
+}
   }
 </style>

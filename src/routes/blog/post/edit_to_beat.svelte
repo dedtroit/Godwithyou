@@ -8,8 +8,8 @@
     <div class="headercolr"><h1>How to edit <br />to the beat</h1></div>
     <div class="subheadcolr">
         <h2>In adobe premiere</h2>
-        <h3>3 minute read</h3>
-        <h4>
+        <h3 class="textdecor">3 minute read</h3>
+        <h4 class="textdecor">
             by Danny Matthews / <a
                 class="textdecor"
                 target="_blank"
@@ -19,15 +19,17 @@
     </div>
     <div class="spacer2" />
 </div>
-<div class="video">
-    <iframe
-        class="responsive-iframe"
-        src="https://www.youtube.com/embed/4wEMobmiHu4?autoplay=1&controls=1&rel=0&showinfo=0&autohide=1&mute=0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-    />
+<div class="frame">
+    <div class="video">
+        <iframe
+            class="responsive-iframe"
+            src="https://www.youtube.com/embed/4wEMobmiHu4?autoplay=1&controls=1&rel=0&showinfo=0&autohide=1&mute=0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        />
+    </div>
 </div>
 
 <div class="spacer3" />
@@ -89,12 +91,12 @@
         padding-right: 20px;
     }
     .responsive-iframe {
-        top: 0;
+        border: 0;
+        height: 100%;
         left: 0;
-        bottom: 0;
-        right: 0;
-        width: 41.16%;
-        height: 300px;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
 
     .textdecor {
@@ -102,13 +104,18 @@
         color: rgb(90, 90, 90);
     }
     .video {
-        text-align: center;
+        padding-top: 56.25%;
+        position: relative;
+    }
+    .frame {
+        width: 60%;
+        margin: 0 auto;
     }
     .text {
         text-align: left;
         display: flex;
         flex-direction: column;
-        margin: 0px 400px;
+        margin: 0px 200px;
         font-family: "suit";
     }
     .spacer2 {
@@ -146,5 +153,32 @@
         margin-top: 0px;
         font-weight: 400 !important;
         font-size: 30px;
+    }
+    @media only screen and (max-width: 1200px) {
+        .text {
+            margin: 0px 50px;
+            font-size: 20px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .text {
+            font-size: 15px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .textdecor {
+            font-size: 10px;
+        }
+        .hero h1 {
+            font-size: 50px;
+            line-height: 40px;
+        }
+
+        .hero h2 {
+            font-size: 20px;
+        }
+        .text {
+            font-size: 12px;
+        }
     }
 </style>
