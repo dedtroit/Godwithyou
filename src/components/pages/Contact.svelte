@@ -153,8 +153,11 @@
       padding-top: 100px;
     }
 
-    .social .instagram {
-      padding-right: 20px;
+    .social .instagram{
+      padding-right: 10px;
+    }
+    .social .youtube{
+      padding-right: 10px;
     }
   }
 
