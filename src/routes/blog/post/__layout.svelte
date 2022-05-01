@@ -15,7 +15,7 @@
 
   <div class="menu-pane">
     <nav>
-      <a href="/blog">
+      <a href="/blog/">
         <h5 class="menu">Blog home</h5>
       </a>
       <div class="font">other blogs</div>
