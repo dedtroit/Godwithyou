@@ -1,8 +1,8 @@
 
 
 <header class="menu-container">
-  <script data-ad-client="ca-pub-1962370854956150" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <input type="checkbox" id="openmenu" class="hamburger-checkbox" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1962370854956150"
+  crossorigin="anonymous"></script>  <input type="checkbox" id="openmenu" class="hamburger-checkbox" />
 
   <div class="hamburger-icon">
     <label for="openmenu" id="hamburger-label">
