@@ -15,16 +15,3 @@ const config = {
 };
 
 export default config;
-
-
-
-	//extensions: ['.svelte', '.md'],
-
-	//preprocess: preprocess[
-	//	mdsvex({
-	//	  extensions: ['.md'],
-	//	  layout: {
-	//	blog: 'src/routes/blog/post/post1.svelte'
-		//	  }
-	//	})
-	//  ]

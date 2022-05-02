@@ -4,12 +4,8 @@
 	import { Swiper, SwiperSlide } from "swiper/svelte";
   
 	// Import Pages
-	import Details from "../components/pages/Details.svelte";
-	import Videos from "../components/pages/Videos.svelte";
-	import About from "../components/pages/About.svelte";
-	import Contact from "../components/pages/Contact.svelte";
+
 	import Home from "../components/pages/Home.svelte";
-	import Q_A from "../components/pages/Q_A.svelte";
   
 	// Import Swiper styles
 	import "swiper/css";
@@ -75,34 +71,8 @@
 				</div>
 			</div>
 	  </SwiperSlide>
-	  <SwiperSlide>
-		  <div class="page">
-			  <div class="padding">
-				  <Details goTo={goTo} />
-			  </div>	
-			</div>
-	  </SwiperSlide>
-	  <SwiperSlide>
-		  <div class="page">
-			  <div class="padding">
-				  <Videos goTo={goTo} />
-			  </div>	
-			</div>
-	  </SwiperSlide>
-	  <SwiperSlide>
-		  <div class="page">
-			  <div class="padding">
-				  <About goTo={goTo} />
-			  </div>
-			</div>
-	  </SwiperSlide>
-	  <SwiperSlide>
-		  <div class="page">
-			  <div class="padding">
-				  <Contact goTo={goTo} />
-			  </div>
-			</div>
-	  </SwiperSlide>
+	 
+	
   
 	</Swiper>
   </main>
