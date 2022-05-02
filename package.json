@@ -19,7 +19,9 @@
   },
   "type": "module",
   "dependencies": {
+    "@notionhq/client": "^1.0.4",
     "express": "^4.17.3",
+    "react-toastify": "^8.2.0",
     "swiper": "^7.4.1"
   }
 }

@@ -22,12 +22,12 @@
 html, body {
 	position: relative;
 	width: 100%;
-	background-color: #aaa493;
+	background-color: #008080; 
 	height: 100%;
 }
 
 body {
-	color: rgb(90, 90, 90);
+	background-color: #008080;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: Krylon, suit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -67,7 +67,7 @@ input:disabled {
 
 button {
 	color: rgb(90, 90, 90);
-	background-color: #f4f4f4;
+	background-color: #E6E6FA;
 	outline: none;
 }
 
