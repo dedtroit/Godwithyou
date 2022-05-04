@@ -274,7 +274,7 @@
   }
   .button {
     background-color: #009d9d;
-    font-family: "Akkurat-Mono";
+    font-family: monospace;
     color: #e6e6fa;
     border-radius: 5px;
     border: none;
@@ -297,22 +297,22 @@
     color: #e6e6fa;
     background-color: #008080;
     border-color: #008080;
-    font-family: "Akkurat-Mono";
+    font-family: monospace;
   }
   .phone {
     color: #e6e6fa;
-    font-family: "Akkurat-Mono";
+    font-family: monospace;
   }
   .form__group {
     position: relative;
     padding: 15px 0 0;
     margin-top: 10px;
     width: 50%;
-    font-family: "Akkurat-Mono";
+    font-family: monospace;
   }
 
   .form__field {
-    font-family: "Akkurat-Mono";
+    font-family: monospace;
     width: 100%;
     border: 0;
     border-bottom: 2px solid;
@@ -368,7 +368,7 @@
   .subheadcolr {
     padding-top: 20px;
     color: #e6e6fa;
-    font-family: "Akkurat-Mono";
+    font-family: monospace;
   }
   .h2 {
     font-size: 20px;
@@ -381,7 +381,7 @@
     font-size: 15px;
     text-align: center;
     padding-top: 40px;
-    font-family: "Akkurat-Mono";
+    font-family: monospace;
   }
 
   .content {
