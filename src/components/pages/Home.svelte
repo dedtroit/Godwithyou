@@ -264,19 +264,6 @@
       <button class="button" type="submit"> submit </button>
     </div>
 
-    <script>
-      function sConsole(event) {
-        event.preventDefault();
-        var data = document.getElementById("name");
-        var data2 = document.getElementById("prayer");
-        var data4 = document.getElementById("phone");
-
-        console.log(data.value "name");
-        console.log(data2.value "prayer");
-        console.log(data4.value "phone");
-
-      }
-    </script>
   </form>
 </div>
 
