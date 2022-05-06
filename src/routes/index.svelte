@@ -7,7 +7,7 @@
 	const submitForm = async () => {
 		
 		console.log("running");
-		const submit = await fetch("/api/contact", {
+		const submit = await fetch("/api", {
 			method: "POST",
 			body: JSON.stringify({
 				name,
