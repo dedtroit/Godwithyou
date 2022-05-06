@@ -10,7 +10,12 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		})
+		}),
+		vite: {
+			ssr: {
+				external: ['@xstate/svelte']
+			  }
+		   }
 	}
 };
 
