@@ -2,18 +2,19 @@ import { Client } from '@notionhq/client';
 // Require the Client object from the Notion JS SDK
 
 
-exports.handler = async function (event, context) {
+export const post = async (request) => {
     const formBody = JSON.parse(request.body)
     var name = formBody.name
     const prayer = formBody.prayer
     var phone = formBody.phone
 
-    if (name == null) {
+    if(name == null){
         name = " "
     }
-    if (phone == null) {
+    if(phone == null){
         phone = " "
     }
+
     const notion = new Client({ auth: import.meta.env.VITE_NOTION_API_KEY });
     const databaseId = import.meta.env.VITE_NOTION_API_DATABASE;
     (async () => {
@@ -52,10 +53,8 @@ exports.handler = async function (event, context) {
         });
         console.log(response);
     })();
+
 }
-
-
-
 
 
 
