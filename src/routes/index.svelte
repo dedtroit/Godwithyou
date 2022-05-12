@@ -1,13 +1,13 @@
 <script>
-	let name = null;
-	let prayer;
+	let name = "yee";
+	let prayer = "yrr";
 	let phone = null;
 
 
 	const submitForm = async () => {
 		
 		console.log("running");
-		const submit = await fetch("/api", {
+		const submit = await fetch("./.netlify/functions/fetchnotion", {
 			method: "POST",
 			body: JSON.stringify({
 				name,
@@ -279,15 +279,6 @@
 
 					return sNewStr;
 				}
-				var clipboard = new Clipboard(".btn");
-
-				clipboard.on("success", function (e) {
-					console.log(e);
-				});
-
-				clipboard.on("error", function (e) {
-					console.log(e);
-				});
 			</script>
 
 			<script type="text/javascript">

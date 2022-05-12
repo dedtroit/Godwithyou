@@ -1,26 +1,17 @@
 import { Client } from '@notionhq/client';
+import { response } from 'express';
 // Require the Client object from the Notion JS SDK
+const {VITE_NOTION_API_DATABASE, VITE_NOTION_API_KEY} = process.env;
+const notion = new Client({ auth: VITE_NOTION_API_KEY });
+console.log("api connected")
 
-
-export const post = async (request) => {
-    const formBody = JSON.parse(request.body)
-    var name = formBody.name
-    const prayer = formBody.prayer
-    var phone = formBody.phone
-
-    if(name == null){
-        name = " "
-    }
-    if(phone == null){
-        phone = " "
-    }
-
-    const notion = new Client({ auth: import.meta.env.VITE_NOTION_API_KEY });
-    const databaseId = import.meta.env.VITE_NOTION_API_DATABASE;
-    (async () => {
+exports.handler = async function (event, context) {
+    try{
+        const body = JSON.parse(event.body)
+    
         const response = await notion.pages.create({
             parent: {
-                database_id: databaseId,
+                database_id: VITE_NOTION_API_DATABASE,
             },
             properties: {
                 "Name": {
@@ -28,7 +19,7 @@ export const post = async (request) => {
                         {
                             "type": "text",
                             "text": {
-                                "content": name
+                                "content": "hi"
                             }
                         }
                     ]
@@ -39,24 +30,32 @@ export const post = async (request) => {
                         {
                             "type": "text",
                             "text": {
-                                "content": prayer
+                                "content": "dsacd"
                             },
                         },
                     ],
                 },
 
                 "Phone": {
-                    "phone_number": phone
+                    "phone_number": "hi"
                 }
             }
 
         });
-        console.log(response);
-    })();
 
-}
+        return {
+            statusCode: 200,
+            body: JSON.stringify(response)
+        }
+    }catch (e){
+        console.error(e);
+        return{ statusCode: 500,
+        body: e.toString()}
+    }
+};
 
 
+    
 
 
 
