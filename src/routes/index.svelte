@@ -1,11 +1,10 @@
 <script>
-	let name = "yee";
-	let prayer = "yrr";
+	let name = "";
+	let prayer;
 	let phone = null;
-
+	var redirect = "/Thankyou";
 
 	const submitForm = async () => {
-		
 		console.log("running");
 		const submit = await fetch("./.netlify/functions/fetchnotion", {
 			method: "POST",
@@ -16,13 +15,11 @@
 			}),
 		});
 		const data = await submit.json();
-
+		window.location.href = redirect;
 	};
 </script>
 
 <main>
-
-
 	<div class="content">
 		<div class="based">GOD WITH YOU</div>
 		<div class="hero">
@@ -39,10 +36,8 @@
 		</div>
 		<div class="spacer" />
 
-	
-	
 		<form on:submit|preventDefault={submitForm} class="form">
-			<input type="hidden" name="form-name" value="contact"/>
+			<input type="hidden" name="form-name" value="contact" />
 			<div class="centerform">
 				<div class="form__group field">
 					<input
@@ -284,9 +279,6 @@
 			<script type="text/javascript">
 				function yesnoCheck(that) {
 					if (that.value == "other") {
-						alert(
-							"We will text you before calling to make sure its a good time"
-						);
 						document.getElementById("ifYes").style.display =
 							"block";
 					} else {
@@ -296,16 +288,31 @@
 			</script>
 
 			<div class="spacer" />
+			<div ><a class="God" href="/God">who is God? really.</a></div>
+
 			<div class="container">
 				<button class="button" type="submit"> submit </button>
 			</div>
 		</form>
-	
-
 	</div>
 </main>
 
 <style>
+		.God {
+		color: #e6e6fa;
+		font-family: monospace;
+		font-size: 15;
+		text-align: center;
+		text-decoration: none;
+	}
+	a:hover {
+		border-bottom: 1px solid;
+		background: #fff;
+	}
+	a:hover {
+		border-bottom: 1px solid;
+		background: #fff;
+	}
 	.container {
 		height: 200px;
 		position: relative;
@@ -324,6 +331,7 @@
 		left: 50%;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
+		padding-bottom: 0px;
 	}
 	.centerform {
 		margin-left: 34%;

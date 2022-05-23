@@ -2,7 +2,7 @@
   "name": "app-1",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev --port 3000",
+    "dev": "svelte-kit dev --port 5000",
     "build": "svelte-kit build",
     "export": "svelte-kit export",
     "package": "svelte-kit package",

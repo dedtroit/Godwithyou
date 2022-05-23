@@ -1,9 +1,8 @@
 import { Client } from '@notionhq/client';
-import { response } from 'express';
 // Require the Client object from the Notion JS SDK
 const {VITE_NOTION_API_DATABASE, VITE_NOTION_API_KEY} = process.env;
 const notion = new Client({ auth: VITE_NOTION_API_KEY });
-console.log("api connected")
+
 
 exports.handler = async function (event, context) {
     try{
@@ -19,7 +18,7 @@ exports.handler = async function (event, context) {
                         {
                             "type": "text",
                             "text": {
-                                "content": "hi"
+                                "content": body.name
                             }
                         }
                     ]
@@ -30,14 +29,14 @@ exports.handler = async function (event, context) {
                         {
                             "type": "text",
                             "text": {
-                                "content": "dsacd"
+                                "content": body.prayer
                             },
                         },
                     ],
                 },
 
                 "Phone": {
-                    "phone_number": "hi"
+                    "phone_number": body.phone
                 }
             }
 
@@ -45,7 +44,7 @@ exports.handler = async function (event, context) {
 
         return {
             statusCode: 200,
-            body: JSON.stringify(response)
+            body: JSON.stringify("connected")
         }
     }catch (e){
         console.error(e);
