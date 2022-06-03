@@ -505,7 +505,7 @@
 
 	@media only screen and (max-width: 650px) {
 		.centerform {
-			margin-left: 16.4%;
+			margin-left: 20%;
 		}
 		:placeholder-shown ~ .form__label {
 			font-size: 1rem;
@@ -524,7 +524,9 @@
 		}
 
 		.content {
-			padding-right: 30px;
+			padding-right: 10px;
+			padding-left: 10px;
+
 		}
 
 		.hero h1 {
