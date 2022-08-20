@@ -43,11 +43,9 @@
 					I know and believe that you are the one true God and that you
 					sent your son to die for my sins. I believe that You and Jesus
 					are one. And that he died on the cross and rose again. Make me
-					new and turn my life around. Amen" If you prayed this prayer.
-					Please enter your phone number on the main page and enter
-					in the prayer tab "code" and we will send you a code to get a
-					free bible. The next step is continuing after God and getting
-					connected to a local church. We will also be praying for you.
+					new and turn my life around. Amen" The next step is continuing 
+					after God and getting connected to a local church. We will also 
+					be praying for you.
 				</h3>
 			</div>
 		</div>
