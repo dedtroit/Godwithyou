@@ -10,48 +10,54 @@
 				<h3>
 					Tell me if you heard this one before... In the beginning,
 					God created the heavens and the earth. Or the "guy" who
-					watches over us. Or the man upstairs. God. He is a living,
-					God. is not a God, the God. He is the beginning and the end.
-					The one who loves you so much He sent his son to die for
-					you! To... die... for... you. He has given you the gift of
-					eternal life if you chose to accept this gift. How do you
-					receive this gift though? Well, first who is Jesus? He is
-					the son of God but He is also God. Jesus came to this earth
+					watches over us. Or the man upstairs. <br /><br />
+					God. <br /><br />
+					He is a living, God and is not a God, but the God. He is the
+					beginning and the end. The one who loves you so much He sent
+					his son to die for you! Let me say that again. To die for you.
+					He has given you the gift of eternal life if you chose to accept
+					this gift. <br /><br />
+					How do you receive this gift though? Well, first who is Jesus?
+					He is the son of God but He is also God. Jesus came to this earth
 					not as a good teacher or just a good person but as a perfect
-					and holy, fully human and fully God to take on this world's
-					sin as His own. Jesus died for your sins. Lying, stealing,
-					murders, pornification, affairs, pedophilia. You name it
-					Jesus died for it. and because of this, he has given you the
-					right to go to heaven AND have a personal relationship with
-					God, the one who created the heavens and earth, the one who
-					created you and every microcell that exists in your body,
-					the one who gives life to all living things. But the story
-					doesn't end there. Jesus died for you and your sins but He
-					rose again on the third day and invites everyone and anyone
-					to accept the free gift. Now, how do you accept this gift?
-					You must ask God for forgiveness for your sins. Believe that
-					Jesus is God and that He rose again on the third day. And
-					finally, turn your life away from evil. God loves you. He
-					loves you more than every single person's love combined. I
-					mean, who would die for you? Take their life. Like, they are
-					done. Plus, take every wrong you have ever done and say you
-					are clean and give you a life in heaven. No one even has the
-					capability of doing this.
-					<div class="spacer" />
-					If this is something you want to do pray this prayer: "God, I
-					am a sinner and I am sorry for everything I have done in my life
-					I know and believe that you are the one true God and that you
-					sent your son to die for my sins. I believe that You and Jesus
-					are one. And that he died on the cross and rose again. Make me
-					new and turn my life around. Amen" The next step is continuing 
-					after God and getting connected to a local church. We will also 
+					and holy, fully human and fully God individual to take on this
+					world's sin as His own. Jesus died for your sins - lying, stealing,
+					murders, pornification, affairs, all sins. You name it, Jesus
+					died for it. But the story doesn't end there. Jesus died for
+					you and your sins but He rose again on the third day and conquered
+					death. Because of this, He has given you the right to go to heaven
+					AND have a personal relationship with God, the one who created
+					the heavens and earth, the one who created you and every microcell
+					that exists in your body, and the one who gives life to all living
+					things. and invites everyone and anyone to accept the gift.
+
+					<br /><br />To accept this gift you must ask God for
+					forgiveness for your sins. Believe that Jesus is God and
+					that He rose again on the third day. And finally, turn your
+					life away from evil. God loves you. He loves you more than
+					every single person's love combined and even more. I mean,
+					who would die for you? Take their life. Like, they are done.
+					Plus, take every wrong you have ever done and say you are
+					clean, and give you a life in heaven. No one even has the
+					capability of doing this. Except for the one who created all
+					things.
+					<br /><br />
+					If this is something you want to do, pray this prayer: "God,
+					I am a sinner, and I am sorry for everything I have done in my
+					life I know and believe that you are the one true God and that
+					you sent your son to die for my sins. I believe that You and
+					Jesus is one. And that he died on the cross and rose again. Make
+					me new and turn my life around. Amen," The next step is continuing
+					after God and getting connected to a local church. We will also
 					be praying for you.
 				</h3>
 			</div>
+			<div class="buttondiv">
+				<button class="button" type="submit" onclick="history.go(-1)"
+					>Go back</button
+				>
+			</div>
 		</div>
-		<button class="button" type="submit" onclick="history.go(-1)"
-			>Go back</button
-		>
 	</div>
 </main>
 
@@ -63,13 +69,17 @@
 		border-radius: 5px;
 		border: none;
 		width: 180px;
-		height: 100px;
+		height: 50px;
 		margin: 0;
 		position: relative;
 		top: 50%;
 		left: 50%;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
+	}
+	.buttondiv {
+		padding-bottom: 5%;
+		padding-top: 5%;
 	}
 
 	::placeholder {
@@ -83,7 +93,8 @@
 		padding-top: 20px;
 		color: #e6e6fa;
 		font-family: monospace;
-
+		padding-left: 10%;
+		padding-right: 10%;
 		text-align: left;
 		display: flex;
 		flex-direction: column;
